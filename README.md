@@ -32,6 +32,7 @@ git commit -m "Added new file"
 ```
 git push -u origin master
 ```
+**Note:** In case you will find an error during push, this means that you might not have the updated copy from the remote. So, you have to run the **git pull** first.
 
 **How to Update local copy**
 
