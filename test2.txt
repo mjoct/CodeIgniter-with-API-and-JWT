@@ -1,4 +1,0 @@
-This is a test 2
-modified
-modified from remote
-modified again from remote 2
