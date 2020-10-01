@@ -3,7 +3,7 @@
 > NOTE: Find Github Formatting [here](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 ## Git Basic Commands
-**How to check Git Status **
+**How to check Git Status**
 ```
 git status 
 ```
