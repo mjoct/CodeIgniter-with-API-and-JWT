@@ -40,8 +40,13 @@ git push -u origin master
 
 This can be done by either of the 2 commands -- **[git fetch](https://www.atlassian.com/git/tutorials/syncing/git-fetch)** or **[git pull](https://www.atlassian.com/git/tutorials/syncing/git-pull)**. The difference between the two is; **git fetch** does not merge changes from remote to local automatically. Whereas **git pull** merge the changes automatically. However, most of the time we will be using the **git pull**.
 
+_This will fetch all the branch from remote that are not on your local_
 ```
-git push -u origin master
+git fetch origin
+```
+_This will fetch only the branch from remote that are not on your local_
+```
+git fetch origin feature_branch
 ```
 
 
