@@ -1,4 +1,8 @@
-## Copy the files to their respective folders
+## Copy the files to their respective folders/path
+
+### Format :
+
+< counter > - **< FileName >** - < FolderName/Path >
 
 ### PHP Files
 
@@ -10,3 +14,8 @@
 
 4 - **jwt.php** - application > config 
 
+### Helper Files
+
+1 - **authorization_helper.php** - application > helpers
+
+2 - **jwt_helper.php** - application > helpers
