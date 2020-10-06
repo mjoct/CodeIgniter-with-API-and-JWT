@@ -1,17 +1,12 @@
-**Copy the files to their respective folders**
+## Copy the files to their respective folders
 
-1 - Rest Controller 
-Local CI Path: 	application > third_party 
-Filename:	REST_Controller.php 
+### PHP Files
 
-2 - Format 
-Local CI Path: 	application > third_party 
-Filename:	Format.php  
+1 - **REST_Controller.php** - application/third_party 
 
-3 - Rest
-Local CI Path: 	application > config 
-Filename:	rest.php  
- 
-4 - JWT
-Local CI Path: 	application > config 
-Filename:	jwt.php  
+2 - **Format.php** - application/third_party 
+
+3 - **rest.php** - application/config 
+
+4 - **jwt.php** - application/config 
+
