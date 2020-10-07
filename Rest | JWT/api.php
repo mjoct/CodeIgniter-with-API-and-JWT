@@ -16,6 +16,7 @@
     header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
 
     class Api extends REST_Controller {
+
         public function __construct() {
             parent::__construct();
 
@@ -23,20 +24,7 @@
             $this->load->helper(['jwt', 'authorization']);
         }
 
-        public function hello_get() {
-            $tokenData = "Hello World";
-
-            // Create a token
-            $token = AUTHORIZATION::generateToken($tokenData);
-            // Set HTTP status code
-            $status = parent::HTTP_OK;
-            // Prepare the response
-            $response = ['status' => $status, 'token' => $token];
-            // REST_Controller provide this method to send response
-            $this->response($response, $status);
-        }
     }
-
 
 /* End of file Api.php */
 
