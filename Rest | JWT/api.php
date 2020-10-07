@@ -21,7 +21,7 @@
             parent::__construct();
 
             // Load these helper to create JWT tokens
-            $this->load->helper(['jwt', 'authorization']);
+            $this->load->helper(array('jwt', 'authorization'));
         }
 
     }
